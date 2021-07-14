@@ -1,0 +1,552 @@
+/****************************** 
+        Typography 
+******************************/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+/****************************** 
+        Global Style Start
+******************************/
+
+*:focus {
+    outline: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    background-color: #FFFFFF;
+}
+section{
+    margin: 0 auto;
+}
+h1{
+    font-size: 64px;
+    line-height: 80px;
+    color: #FFFFFF;
+}
+h2{
+    font-size: 48px;
+    line-height: 60px;
+}
+h3{
+    font-size: 28px;
+    line-height: 40px;
+}
+a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+p{
+    color: #6c6c6c;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: normal;
+}
+/****************************** 
+        Global Style End
+******************************/
+
+
+/****************************** 
+    Header Section Start
+******************************/
+
+/* Navigation Link Start*/
+.container{
+    background: #2D25A0;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 42px;
+}
+.nav-link{
+    display: flex;
+    flex-direction: row;
+}
+.nav-link a{
+    padding-right: 36px;
+    margin: 10px 0px;
+}
+.login a{
+    background: #E02C6D;
+    padding: 10px 24px;
+}
+.login a:hover, .slide-text a:hover, .optional-text a:hover{
+    background-color: #FFFFFF;
+    color: #E02C6D;
+    padding: 10px 24px;
+    transition: .5s;
+}
+.login a i{
+    padding-left: 8px;
+}
+/* Navigation Link End */
+
+/* Banner Start */
+.slide{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.slide-text{
+    padding: 121px 0px 169px 0px;
+    margin-right: 130px;
+}
+.slide-text h1{
+    margin-bottom: 27px;
+}
+.slide-text a, .optional-text a{
+    background: #E02C6D;
+    color: #FFFFFF;
+    padding: 10px 24px;
+} /* get hover style from .login a:hover */
+.slide-text a i{
+    padding-left: 8px;
+}
+.slide-img{
+    padding: 67px 0px 86px 0px;
+}
+.banner{
+    width: 556px;
+    height: 438px;
+}
+/* Banner End */
+/****************************** 
+    Header Section End
+******************************/
+
+
+/****************************** 
+    Album Section Start
+******************************/
+.album{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 1050px;
+    margin-top: 70px;
+    margin-bottom: 165px;
+    
+}
+.card {
+    width: 330px;
+    height: 474px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    /* padding: 15px 15px 33px; */
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.card-img img{
+    width: 300px;
+    height: 256px;
+    padding-top: 15px;
+    margin-bottom: 0px;
+}
+.card-content{
+    width: 300px;
+    height: 154px;
+}
+.card-content h3{
+    color: #18191F;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+.card-content p{
+    text-align: justify;
+    margin-top: 0px;
+}
+/****************************** 
+    Album Section End
+******************************/
+
+/****************************** 
+    Bonus-1 Section Start
+******************************/
+.video{
+    margin-top: 0px;
+}
+.video h2{
+    color: #0A0826;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.video-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 158px;
+}
+.video-container video{
+    width: 950px;
+    height: 550px;
+    margin: 0 auto;
+}
+/****************************** 
+    Bonus-1 Section End
+******************************/
+
+/****************************** 
+    Optional Section Start
+******************************/
+.optional{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 158px;
+}
+.optional-text{
+    width: 469px;
+    height: 309px;
+    padding-right: 66px;
+}
+.optional-text h2{
+    color: #0A0826;
+    margin-bottom: 0px;
+}
+.optional-text p{
+    line-height: 28px;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+.optional-img img{
+    width: 567px;
+    height: 427px;
+}
+/****************************** 
+    Optional Section End
+******************************/
+
+/****************************** 
+    Bonus-2 Section Start
+******************************/
+form h2{
+    color: #FFFFFF;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 60px;
+    margin: 0 auto;
+    background-color: #331E9B;
+    margin-bottom: 158px;
+}
+.form{
+    margin-bottom: 100px;
+}
+input{
+    text-align: center;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 200;
+    padding: 20px 0;
+    width: 500px;
+    margin-bottom: 20px;
+    transition: border .5s;
+}
+input[type=submit]{
+    background-color: #EB306B;
+    color: #FFFFFF;
+}
+::placeholder {
+    color: #331E9B;
+    opacity: .7;
+}
+
+.form p{
+    text-align: center;
+    color: #E9E9E9;
+    margin-top: 0px;
+}
+.form p a{
+    color: #EB306B;
+}
+.form p a:hover{
+    color: #E9E9E9;
+}
+/****************************** 
+    Bonus-2 Section End
+******************************/
+
+/****************************** 
+    Footer Section Start
+******************************/
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 484px;
+    height: 213px;
+    margin: 0 auto;
+}
+.footer-img img{
+    width: 484px;
+    height: 110px;
+    margin-bottom: 20px;
+}
+.social{
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.social a{
+    font-size: 24px;
+    padding: 5px;
+    color: #969BAA;
+}
+.copyright p{
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    margin-top: 0px;
+    margin-bottom: 63px;
+}
+/****************************** 
+    Footer Section End
+******************************/
+
+
+/****************************** 
+Media Queries For Mobile Start
+******************************/
+@media screen and (max-width: 480px) {
+
+    /****************************** 
+        Header Section Start
+    ******************************/
+    .nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-link a {
+        padding: 0;
+        margin: 10px 0px;
+    }
+    .nav-a{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .login{
+        margin-top: 20px;
+    }
+    .login a {
+        background: #E02C6D;
+        padding: 10px 24px;
+    }
+
+    .slide,.slide-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .slide-text{
+        padding: 0;
+        margin: 0 auto;
+    }
+    .slide-text h1{
+        font-size: 40px;
+        line-height: 55px;
+        text-align: center;
+        padding: 0;
+        margin: 40px auto;
+    }
+    .slide-img{
+        margin-left: 35px;
+    }
+    .slide-img img{
+        width: 90%;
+        height: auto;
+    }
+    /****************************** 
+        Header Section End
+    ******************************/
+
+    /****************************** 
+        Main Album Section Start
+    ******************************/
+    .album {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+    /****************************** 
+        Main Album Section End
+    ******************************/
+
+    /****************************** 
+        Bonus-1 Section Start
+    ******************************/
+
+    .video h2{
+        font-size: 30px;
+        line-height: 45px;
+        text-align: center;
+        padding: 0;
+        margin: 40px auto;
+    }
+    .video-container{
+        margin-bottom: 50px;
+    }
+    .video-container video{
+        width: 90%;
+        height: 70%;
+        margin-top: 0;
+    }
+    video{
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    /****************************** 
+        Bonus-1 Section End
+    ******************************/
+
+    /****************************** 
+        Optional Section Section
+    ******************************/
+
+    .optional{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 4%;
+    }
+    .optional-text{
+        width: 90%;
+        height: auto;
+        padding-right: 0;
+    }
+    .optional-text h2{
+        font-size: 30px;
+        line-height: 45px;
+        padding-bottom: 10px;
+        margin: auto;
+    }
+    .optional-text a{
+        margin-bottom: 4%;
+    }
+    .optional-img img{
+        width: 90%;
+        height: 70%;
+        margin-top: 10%;
+    }
+    /****************************** 
+        Optional Section Section
+    ******************************/
+
+    /****************************** 
+        Bonus-2 Section Start
+    ******************************/
+    .wrapper{
+        padding-top: 0;
+        margin-bottom: 4%;
+    }
+    .wrapper h2{
+        font-size: 30px;
+        line-height: 45px;
+        text-align: center;
+        padding: 0;
+        margin: 40px auto;
+    }
+    input {
+        text-align: center;
+        border: 2px solid transparent;
+        border-radius: 3px;
+        font-size: 16px;
+        font-weight: 200;
+        padding: 20px 0;
+        width: 350px;
+        margin-bottom: 20px;
+        transition: border .5s;
+    }
+
+    input[type=submit] {
+        background-color: #EB306B;
+        color: #FFFFFF;
+    }
+    input[type=submit]:hover {
+        background-color: #FFFFFF;
+        color: ##EB306B;
+    }
+    .form p a:hover{
+        color: #FFFFFF;
+    }
+    /****************************** 
+        Bonus-2 Section End 
+    ******************************/
+
+    /****************************** 
+        Footer Section Start 
+    ******************************/
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        height: auto;
+        margin-bottom: 10%;
+
+    }
+    .footer-img img{
+        width: 90%;
+        height: auto;
+        margin-top: 0;
+        margin-bottom: 1%;
+    }
+    .social {
+        margin: 0 auto 10px;
+    }
+    .social a i{
+        font-size: 30px;
+    }
+    .copyright p{
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    /****************************** 
+        Footer Section End
+    ******************************/
+}
+
+/****************************** 
+Media Queries For Mobile End
+******************************/
+
+
