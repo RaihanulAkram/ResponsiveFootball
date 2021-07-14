@@ -134,8 +134,8 @@ p{
     justify-content: center;
     align-items: center;
     max-width: 1050px;
-    /* margin-top: 70px;
-    margin-bottom: 165px; */
+    margin-top: 70px;
+    margin-bottom: 165px;
     margin: 0 auto;
     
 }
@@ -500,7 +500,7 @@ Media Queries For Mobile Start
     }
     input[type=submit]:hover {
         background-color: #FFFFFF;
-        color: ##EB306B;
+        color: #EB306B;
     }
     .form p a:hover{
         color: #FFFFFF;
