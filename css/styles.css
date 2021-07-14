@@ -69,6 +69,8 @@ p{
     flex-direction: row;
 }
 .nav-link a{
+    font-style: normal;
+    font-weight: 500;
     padding-right: 36px;
     margin: 10px 0px;
 }
@@ -101,6 +103,8 @@ p{
 }
 .slide-text h1{
     margin-bottom: 27px;
+    font-style: normal;
+    font-weight: bold;
 }
 .slide-text a, .optional-text a{
     background: #E02C6D;
@@ -162,11 +166,15 @@ p{
     height: 154px;
 }
 .card-content h3{
+    font-style: normal;
+    font-weight: bold;
     color: #18191F;
     margin-top: 16px;
     margin-bottom: 8px;
 }
 .card-content p{
+    font-style: normal;
+    font-weight: normal;
     text-align: justify;
     margin-top: 0px;
 }
@@ -219,10 +227,14 @@ p{
     padding-right: 66px;
 }
 .optional-text h2{
+    font-style: normal;
+    font-weight: bold;
     color: #0A0826;
     margin-bottom: 0px;
 }
 .optional-text p{
+    font-style: normal;
+    font-weight: normal;
     line-height: 28px;
     margin-top: 8px;
     margin-bottom: 24px;
@@ -318,6 +330,8 @@ input[type=submit]{
 }
 .copyright p{
     font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
     line-height: 24px;
     color: #000000;
     margin-top: 0px;
