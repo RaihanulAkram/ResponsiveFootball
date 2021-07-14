@@ -10,8 +10,6 @@
 body,html{
     margin: 0;
     padding: 0;
-    width: 1440px;
-    height: 677px;
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
 }
@@ -135,14 +133,14 @@ p{
     gap: 30px;
     justify-content: center;
     align-items: center;
-    width: 1050px;
+    max-width: 1050px;
     margin-top: 70px;
     margin-bottom: 165px;
     
 }
 .card {
     width: 330px;
-    height: 474px;
+    height: 456px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
